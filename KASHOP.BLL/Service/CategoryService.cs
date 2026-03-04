@@ -30,6 +30,18 @@ namespace KASHOP.BLL.Service
             return category.Adapt<CategoryResponse>();
         }
 
+        public async Task<bool> DeleteCategory(int id)
+        {
+            var category =await _categoryRepository.Getone(c=>c.Id==id);
+            if (category == null)
+            {
+              return false; 
+
+            }return await _categoryRepository.DeleteAsync(category);
+
+            
+        }
+
         public async Task<List<CategoryResponse>> GetAllCategories()
         {
             var categories = await _categoryRepository.GetAllAsync(new string[] {nameof(Category.translations)});

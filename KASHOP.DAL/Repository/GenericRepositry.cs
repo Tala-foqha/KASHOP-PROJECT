@@ -27,7 +27,13 @@ namespace KASHOP.DAL.Repository
             return entity;
         }
 
-       
+        public async Task<bool> DeleteAsync(T entity)
+        {
+            _context.Remove(entity);
+       var affected= await  _context.SaveChangesAsync();
+            return affected > 0;
+        }
+
         public async Task<List<T>> GetAllAsync(String[]?includes=null)
         {
             IQueryable<T> query = _context.Set<T>();
@@ -42,7 +48,7 @@ namespace KASHOP.DAL.Repository
             //    var response = _context.Adapt<List<CategoryResponse>>();
             //}
         }
-        public async Task<T> Getone(Expression<Func<T,bool>>  filter,String[]? includes = null)
+        public async Task<T?> Getone(Expression<Func<T,bool>>  filter,String[]? includes = null)
         {
             IQueryable<T> query = _context.Set<T>();
             if (includes != null)

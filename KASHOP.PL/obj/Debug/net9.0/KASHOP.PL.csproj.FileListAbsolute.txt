@@ -175,3 +175,8 @@ C:\Users\talaF\OneDrive\Documents\asp\backend\api\KASHOP\KASHOP.PL\bin\Debug\net
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\KASHOP\KASHOP.PL\bin\Debug\net9.0\Mapster.dll
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\KASHOP\KASHOP.PL\bin\Debug\net9.0\Mapster.Core.dll
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\KASHOP\KASHOP.PL\obj\Debug\net9.0\KASHOP.PL.Resourses.SharedResources.resources
+C:\Users\talaF\OneDrive\Documents\asp\backend\api\KASHOP\KASHOP.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\talaF\OneDrive\Documents\asp\backend\api\KASHOP\KASHOP.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\talaF\OneDrive\Documents\asp\backend\api\KASHOP\KASHOP.PL\bin\Debug\net9.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\talaF\OneDrive\Documents\asp\backend\api\KASHOP\KASHOP.PL\bin\Debug\net9.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\talaF\OneDrive\Documents\asp\backend\api\KASHOP\KASHOP.PL\bin\Debug\net9.0\Microsoft.Extensions.Identity.Stores.dll
