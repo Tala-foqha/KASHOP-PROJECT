@@ -6,10 +6,12 @@ using KASHOP.DAL.Models;
 using KASHOP.DAL.Repository;
 using KASHOP.PL.Resourses;
 using Mapster;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Localization;
+using System.Security.Claims;
 
 namespace KASHOP.PL.Controllers
 {
@@ -28,10 +30,15 @@ namespace KASHOP.PL.Controllers
             _localizer = localizer;
         }
         [HttpPost("")]
-
+        [Authorize]
+        //بفك التوكن وبشفره ومنه بنجيب الاي دي
         public async Task< IActionResult> Create(CategoryRequest request)
         
         {
+            // مش افضل اشي بدي اجيب بيانات اليوزر الطريقة الافضل اخر اشي بالكرييت لما نخزن بالداتا بيس السيف شينج
+            //واخليه يضيف الاي دي لحلاله لما يعمل حفظ
+            //عشان يزبط عاد الاشي بالابكليشن كونتكست لازم اعمل اوفر رايد ع اليف شينج
+            //var user = User.FindFirstValue(ClaimTypes.NameIdentifier);
             var category =await _categoryService.CreateCategory(request);
             return Ok(new
             {
@@ -42,8 +49,9 @@ namespace KASHOP.PL.Controllers
         [HttpGet("")]
         //الميثود الي بجيب كل الداتا بالعادة بنسمي اندكس
         public async Task <IActionResult> Get() {
+            var lang = Request.Headers["Accept-Language"].ToString();
             //var category = _context.Categories.Include(c=>c.Translations).ToList();
-            var categories =  await _categoryService.GetAllCategories();
+            var categories =  await _categoryService.GetAllCategories(lang);
             //return only the value
             return Ok(
                 new

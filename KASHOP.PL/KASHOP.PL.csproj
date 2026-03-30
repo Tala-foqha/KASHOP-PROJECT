@@ -4,6 +4,7 @@
     <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>6fbde4bd-4bb6-400b-a156-604bb7e10963</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +17,14 @@
 
   <ItemGroup>
     <ProjectReference Include="..\KASHOP.BLL\KASHOP.BLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\images\b8d3b1d1-343b-42c3-9232-2e0d5a0537d0.jpg" />
   </ItemGroup>
 
 </Project>
