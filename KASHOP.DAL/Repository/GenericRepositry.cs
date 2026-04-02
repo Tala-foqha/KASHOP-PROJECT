@@ -34,7 +34,7 @@ namespace KASHOP.DAL.Repository
             return affected > 0;
         }
 
-        public async Task<List<T>> GetAllAsync(String[]?includes=null)
+        public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter,String[]?includes=null)
         {
             IQueryable<T> query = _context.Set<T>();
             if (includes != null)
@@ -43,6 +43,10 @@ namespace KASHOP.DAL.Repository
                 {
                     query = query.Include(include);
                 }
+            }
+            if (filter != null)
+            {
+                query = query.Where(filter);
             }
             return await query.ToListAsync();
             //    var response = _context.Adapt<List<CategoryResponse>>();
@@ -59,6 +63,14 @@ namespace KASHOP.DAL.Repository
                 }
             }
             return await query.FirstOrDefaultAsync(filter);
+        }
+
+        public async Task<bool> UpdateAsync(T entity)
+        {
+            _context.Update(entity);
+         var affected=await   _context.SaveChangesAsync();
+            return affected > 0;
+
         }
     }
   // ( c=>checked.name)

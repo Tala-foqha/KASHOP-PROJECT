@@ -35,11 +35,18 @@ namespace KASHOP.PL.Controllers
         public async Task< IActionResult> Create(CategoryRequest request)
         
         {
+            if (request.translations == null || !request.translations.Any())
+            {
+                throw new ArgumentException("Translations cannot be null or empty");
+            }
+            var lang = Request.Headers["Accept-Language"].ToString();
+
+
             // مش افضل اشي بدي اجيب بيانات اليوزر الطريقة الافضل اخر اشي بالكرييت لما نخزن بالداتا بيس السيف شينج
             //واخليه يضيف الاي دي لحلاله لما يعمل حفظ
             //عشان يزبط عاد الاشي بالابكليشن كونتكست لازم اعمل اوفر رايد ع اليف شينج
             //var user = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var category =await _categoryService.CreateCategory(request);
+            var category =await _categoryService.CreateCategory(request,lang);
             return Ok(new
             {
                 message = _localizer["Success"].Value

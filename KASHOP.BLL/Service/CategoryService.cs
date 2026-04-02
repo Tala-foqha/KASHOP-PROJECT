@@ -23,11 +23,15 @@ namespace KASHOP.BLL.Service
             _categoryRepository = categoryRepository;
 
         }
-        public async Task<CategoryResponse> CreateCategory(CategoryRequest request)
+        public async Task<CategoryResponse> CreateCategory(CategoryRequest request, string lang = "en")
         {
             var category = request.Adapt<Category>();
             await _categoryRepository.CreateAsync(category);
-            return category.Adapt<CategoryResponse>();
+            if (request.translations == null || !request.translations.Any() || request.translations.Any(t => t == null))
+            {
+                throw new ArgumentException("Translations cannot be null or contain null items");
+            }
+            return category.BuildAdapter().AddParameters("lang", lang).AdaptToType<CategoryResponse>();
         }
 
         public async Task<bool> DeleteCategory(int id)
@@ -44,7 +48,9 @@ namespace KASHOP.BLL.Service
 
         public async Task<List<CategoryResponse>> GetAllCategories(String lang="en")
         {
-            var categories = await _categoryRepository.GetAllAsync(new string[] {nameof(Category.translations),
+            var categories = await _categoryRepository.GetAllAsync(
+                c=>c.Status==EntityStatus.Active,
+                new string[] {nameof(Category.translations),
                 nameof(Category.CreateBy)});
             var response = categories.BuildAdapter().AddParameters("lang", lang).AdaptToType<List<CategoryResponse>>();
             return response;
