@@ -16,5 +16,6 @@ namespace KASHOP.BLL.Service
         public Task<List<ProductResponse>> GetAllProductsAsync();
         public Task<ProductResponse?> GetProduct(Expression<Func<Product, bool>> filtter);
         public Task<bool> DeleteProduct(int id);
+        public Task<bool> UpdateProduct(int Id, ProductUpdateRequest request);
     }
 }

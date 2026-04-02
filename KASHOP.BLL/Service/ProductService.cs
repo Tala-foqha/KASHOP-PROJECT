@@ -24,6 +24,7 @@ namespace KASHOP.BLL.Service
         public async Task CreateProduct(ProductRequest request)
         {
             var product = request.Adapt<Product>();
+
             if (request.MainImage != null)
             {
                 var imagePath = await _fileService.UploadAsync(request.MainImage);
@@ -68,5 +69,29 @@ namespace KASHOP.BLL.Service
 
         }
 
+        public async Task<bool> UpdateProduct(int Id, ProductUpdateRequest request)
+        {
+            var product = await _productRepository.Getone(p => p.Id == Id,new string[]
+            {
+                nameof(Product.Translations)
+            });
+            if (product== null) return false;
+   
+            var oldImage = product.MainImage;
+            var prodcut1 = request.Adapt<Product>();//new obj needed in the create
+            request.Adapt(product);// no create a new obj
+            
+            if (request.MainImage != null)
+            {
+                //delete the old image
+                _fileService.Delete(oldImage);
+                product.MainImage = await _fileService.UploadAsync(request.MainImage);
+            }
+            else
+            {
+                product.MainImage = oldImage;
+            }
+                return await _productRepository.UpdateAsync(product);
+        }
     }
 }

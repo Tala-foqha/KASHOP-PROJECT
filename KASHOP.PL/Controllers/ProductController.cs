@@ -1,5 +1,6 @@
 ﻿using KASHOP.BLL.Service;
 using KASHOP.DAL.Dto.Request;
+using KASHOP.DAL.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -43,6 +44,14 @@ namespace KASHOP.PL.Controllers
             }
 
            );
+        }
+        [HttpPatch("{Id}")]
+        [Authorize]
+        public async Task<IActionResult> Update(int id, [FromForm]ProductUpdateRequest request)
+        {
+            var updated = await _productService.UpdateProduct(id, request);
+            if (!updated) return BadRequest();
+            return Ok();
         }
 
 
