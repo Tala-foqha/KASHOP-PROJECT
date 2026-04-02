@@ -10,9 +10,11 @@ namespace KASHOP.DAL.Repository
 {
    public interface IGenericRepository<T> where T:class
     {
-        Task<List<T>> GetAllAsync(String[]? includes = null);
-      
+        public Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter, String[]? includes = null);
+
+
             Task<T> CreateAsync(T entity);
+        Task<bool> UpdateAsync(T entity);
         Task<T?> Getone(Expression<Func<T, bool>> filter, String[]? includes = null);
         Task<bool> DeleteAsync(T entity);
     }
