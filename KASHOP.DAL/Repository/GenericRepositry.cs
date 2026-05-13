@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace KASHOP.DAL.Repository
 {
-    public class GenericRepositry<T>:IGenericRepository<T> where T:class
+    public class GenericRepositry<T>:GenericRepository<T> where T:class
     {
 
 
@@ -34,7 +34,32 @@ namespace KASHOP.DAL.Repository
             return affected > 0;
         }
 
-        public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter,String[]?includes=null)
+        public async Task<bool> DeleteRangAsync(List<T> entity)
+        {
+            _context.RemoveRange(entity);
+            return await _context.SaveChangesAsync() > 0;
+        }
+        public async Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter, String[]? includes = null)
+        {
+            IQueryable<T> query = _context.Set<T>();
+            if (includes != null)
+            {
+                foreach (var include in includes)
+                {
+                    query = query.Include(include);
+                }
+            }
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+            // لسا ما رجع الداتا ع جهاز اليوزر
+            return query.ToList();
+            //    var response = _context.Adapt<List<CategoryResponse>>();
+            //}
+        }
+
+        public IQueryable<T> GetQureable(Expression<Func<T, bool>> filter,String[]?includes=null)
         {
             IQueryable<T> query = _context.Set<T>();
             if (includes != null)
@@ -48,7 +73,8 @@ namespace KASHOP.DAL.Repository
             {
                 query = query.Where(filter);
             }
-            return await query.ToListAsync();
+            // لسا ما رجع الداتا ع جهاز اليوزر
+            return  query;
             //    var response = _context.Adapt<List<CategoryResponse>>();
             //}
         }
@@ -72,6 +98,13 @@ namespace KASHOP.DAL.Repository
             return affected > 0;
 
         }
+
+        public async Task<bool> UpdateRangAsync(List<T> entity)
+        {
+            _context.UpdateRange(entity);
+            return await _context.SaveChangesAsync() > 0;
+        }
+    
     }
   // ( c=>checked.name)
 }

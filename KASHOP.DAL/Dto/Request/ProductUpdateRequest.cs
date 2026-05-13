@@ -12,6 +12,8 @@ namespace KASHOP.DAL.Dto.Request
         public decimal? Price { get; set; }
         public decimal? Discount { get; set; }
 
+        public List< IFormFile>? Images { get; set; }
+
         public int? Quantity { get; set; }
         public IFormFile? MainImage { get; set; }
         public int? CategoryId { get; set; }

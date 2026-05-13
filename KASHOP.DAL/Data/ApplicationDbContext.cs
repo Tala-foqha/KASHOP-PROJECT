@@ -21,8 +21,11 @@ namespace KASHOP.DAL.Data
         public DbSet<Product> Product { get; set; }
         public DbSet<Brand> Brand { get; set; }
         public DbSet<BrandTranslation> BrandTranslations { get; set; }
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
 
-
+        public DbSet<OrderItem> OrderItems { get; set; }
 
         public DbSet<ProductTranslation> ProductTranslations { get; set; }
 

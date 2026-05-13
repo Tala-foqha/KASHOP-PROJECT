@@ -77,6 +77,12 @@ namespace KASHOP.DAL.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
+                    b.Property<string>("RefreshToken")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("RefreshTokenExpiry")
+                        .HasColumnType("datetime2");
+
                     b.Property<string>("SecurityStamp")
                         .HasColumnType("nvarchar(max)");
 
@@ -166,6 +172,27 @@ namespace KASHOP.DAL.Migrations
                     b.ToTable("BrandTranslations");
                 });
 
+            modelBuilder.Entity("KASHOP.DAL.Models.Cart", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("Count")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.HasKey("ProductId", "UserId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Carts");
+                });
+
             modelBuilder.Entity("KASHOP.DAL.Models.Category", b =>
                 {
                     b.Property<int>("Id")
@@ -225,6 +252,79 @@ namespace KASHOP.DAL.Migrations
                     b.ToTable("CategoryTranslations");
                 });
 
+            modelBuilder.Entity("KASHOP.DAL.Models.Order", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<decimal?>("AmountPaid")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("OrderDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("OrderStatus")
+                        .HasColumnType("int");
+
+                    b.Property<int>("PaymentMethod")
+                        .HasColumnType("int");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("ShippedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Street")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StripeSessionId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Orders");
+                });
+
+            modelBuilder.Entity("KASHOP.DAL.Models.OrderItem", b =>
+                {
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<decimal>("TotalPrice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("Unitprice")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.HasKey("ProductId", "OrderId");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("OrderItems");
+                });
+
             modelBuilder.Entity("KASHOP.DAL.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -282,6 +382,28 @@ namespace KASHOP.DAL.Migrations
                     b.HasIndex("UpdateById");
 
                     b.ToTable("Product");
+                });
+
+            modelBuilder.Entity("KASHOP.DAL.Models.ProductImage", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ImagePath")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductImages");
                 });
 
             modelBuilder.Entity("KASHOP.DAL.Models.ProductTranslation", b =>
@@ -476,6 +598,25 @@ namespace KASHOP.DAL.Migrations
                     b.Navigation("Brand");
                 });
 
+            modelBuilder.Entity("KASHOP.DAL.Models.Cart", b =>
+                {
+                    b.HasOne("KASHOP.DAL.Models.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("KASHOP.DAL.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("KASHOP.DAL.Models.Category", b =>
                 {
                     b.HasOne("KASHOP.DAL.Models.ApplicationUser", "CreateBy")
@@ -503,6 +644,34 @@ namespace KASHOP.DAL.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("KASHOP.DAL.Models.Order", b =>
+                {
+                    b.HasOne("KASHOP.DAL.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("KASHOP.DAL.Models.OrderItem", b =>
+                {
+                    b.HasOne("KASHOP.DAL.Models.Order", null)
+                        .WithMany("OrderItems")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("KASHOP.DAL.Models.Product", "product")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("product");
                 });
 
             modelBuilder.Entity("KASHOP.DAL.Models.Product", b =>
@@ -537,6 +706,17 @@ namespace KASHOP.DAL.Migrations
                     b.Navigation("CreateBy");
 
                     b.Navigation("UpdateBy");
+                });
+
+            modelBuilder.Entity("KASHOP.DAL.Models.ProductImage", b =>
+                {
+                    b.HasOne("KASHOP.DAL.Models.Product", "Product")
+                        .WithMany("Images")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("KASHOP.DAL.Models.ProductTranslation", b =>
@@ -613,8 +793,15 @@ namespace KASHOP.DAL.Migrations
                     b.Navigation("translations");
                 });
 
+            modelBuilder.Entity("KASHOP.DAL.Models.Order", b =>
+                {
+                    b.Navigation("OrderItems");
+                });
+
             modelBuilder.Entity("KASHOP.DAL.Models.Product", b =>
                 {
+                    b.Navigation("Images");
+
                     b.Navigation("Translations");
                 });
 #pragma warning restore 612, 618

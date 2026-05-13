@@ -19,6 +19,8 @@ using System.Threading.Tasks;
 using KASHOP.DAL.Dto.Request;
 using KASHOP.DAL.Dto.Response;
 using System.Diagnostics.Eventing.Reader;
+using LoginRequest = KASHOP.DAL.Dto.Request.LoginRequest;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace KASHOP.BLL.Service
@@ -72,10 +74,41 @@ namespace KASHOP.BLL.Service
 
 
             }
+            var refreshToken = await GenerateRefreshToken(user);
+            SetRefreshToken(refreshToken);
             return new LoginResponse()
             {
                 Success = true,
                 Message = "Success",
+                AccessToken = await GenerateAccessToken(user)
+            };
+        }
+        public async Task<LoginResponse> refreshToken()
+        {
+            var refreshToken = _httpContext.HttpContext.Request.Cookies["refreshToken"];
+            if(refreshToken is null)
+            {
+                return new LoginResponse
+                {
+                    Success = false,
+                    Message = "no refresh token"
+                };
+            }
+            var user = await _userManager.Users.FirstOrDefaultAsync(u => u.RefreshToken == refreshToken);
+            if (user.RefreshTokenExpiry < DateTime.UtcNow)
+            {
+                return new LoginResponse
+                {
+                    Success = false,
+                    Message = "refresh token expires"
+                };
+            }
+            var newRefreshToken = await GenerateRefreshToken(user);
+           SetRefreshToken(newRefreshToken);
+            return new LoginResponse
+            {
+                Success = true,
+                Message="success",
                 AccessToken = await GenerateAccessToken(user)
             };
         }
@@ -147,11 +180,31 @@ namespace KASHOP.BLL.Service
         issuer: _configuration["Jwt:Issuer"],
         audience: _configuration["Jwt:Audience"],
         claims: userClaim,
-        expires: DateTime.Now.AddDays(5),
+       
+        expires: DateTime.Now.AddMinutes(1),
         signingCredentials: credentials
         );
 
             return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+        private async Task<string> GenerateRefreshToken(ApplicationUser user)
+        {
+            var refreshToken = Guid.NewGuid().ToString();
+            user.RefreshToken = refreshToken;
+            //نخلي مدتها 15 يوم
+            user.RefreshTokenExpiry= DateTime.Now.AddDays(15);
+            await _userManager.UpdateAsync(user);
+            return refreshToken;
+        }
+        private void SetRefreshToken(string RefreshToken)
+        {
+            _httpContext.HttpContext.Response.Cookies.Append("refreshToken", RefreshToken,new CookieOptions
+            {
+                HttpOnly=true,
+                Secure = false, // عشان localhost (HTTP)
+                SameSite = SameSiteMode.Lax, // مناسب للتجربة
+                Expires = DateTime.Now.AddDays(15),
+            });
         }
 
 

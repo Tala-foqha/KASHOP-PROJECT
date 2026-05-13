@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace KASHOP.DAL.Repository
 {
-    public interface IBrandRepository:IGenericRepository<Brand>
+    public interface IBrandRepository:GenericRepository<Brand>
     {
     }
 }

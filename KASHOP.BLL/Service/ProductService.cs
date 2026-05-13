@@ -1,4 +1,5 @@
-﻿using KASHOP.DAL.Dto.Request;
+﻿using KASHOP.BLL.Extentions;
+using KASHOP.DAL.Dto.Request;
 using KASHOP.DAL.Dto.Response;
 using KASHOP.DAL.Models;
 using KASHOP.DAL.Repository;
@@ -10,6 +11,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace KASHOP.BLL.Service
 {
@@ -31,21 +33,44 @@ namespace KASHOP.BLL.Service
                 var imagePath = await _fileService.UploadAsync(request.MainImage);
                 product.MainImage = imagePath;
             }
+            if (request.Images != null)
+            {
+                foreach(var image in request.Images)
+                {
+                    var imagePath = await _fileService.UploadAsync(image);
+                    product.Images.Add(new ProductImage
+                    {
+                        ImagePath=imagePath,
+
+                    } );
+
+                }
+            }
             await _productRepository.CreateAsync(product);
         }
 
-        public async Task<List<ProductResponse>> GetAllProductsAsync()
+        public async Task<PaginationResponse<ProductResponse>> GetAllProductsAsync(PaginationRequest request)
         {
-            var products = await _productRepository.GetAllAsync(
+            var query =  _productRepository.GetQureable(
                 p => p.Status == EntityStatus.Active,
                 new string[]
             {
                 nameof(Product.Translations),
-                nameof(Product.CreateBy)
+                nameof(Product.CreateBy),
+                nameof(Product.Images)
             }
 
             );
-            return products.Adapt<List<ProductResponse>>();
+            var pagination = await query.ToPaginationAsync(request.Page, request.Limit);
+            return new PaginationResponse<ProductResponse>
+            {
+                Data = pagination.Data.Adapt<List<ProductResponse>>(),
+                TotalCount=pagination.TotalCount,
+                Page=pagination.Page,
+                Limit=pagination.Limit
+            };
+
+
         }
         public async Task<ProductResponse?> GetProduct(Expression<Func<Product, bool>> filtter)
         {
@@ -61,9 +86,18 @@ namespace KASHOP.BLL.Service
         }
         public async Task<bool> DeleteProduct(int id)
         {
-            var product = await _productRepository.Getone(c => c.Id == id);
+            var product = await _productRepository.Getone(c => c.Id == id, includes: new[]
+            {
+                nameof(Product.Images)
+            } );
             if (product == null) return false;
             _fileService.Delete(product.MainImage);
+            foreach(var image in product.Images)
+            {
+                _fileService.Delete(image.ImagePath);
+
+
+            }
             return await _productRepository.DeleteAsync(product);
 
 
@@ -77,7 +111,8 @@ namespace KASHOP.BLL.Service
         {
             var product = await _productRepository.Getone(p => p.Id == Id, new string[]
             {
-                nameof(Product.Translations)
+                nameof(Product.Translations),
+                nameof(Product.Images)
             });
 
 
@@ -108,18 +143,41 @@ namespace KASHOP.BLL.Service
                 }
             }
 
-                if (request.MainImage != null)
-                {
-                    //delete the old image
-                    _fileService.Delete(oldImage);
-                    product.MainImage = await _fileService.UploadAsync(request.MainImage);
-                }
-                else
-                {
-                    product.MainImage = oldImage;
-                }
-                return await _productRepository.UpdateAsync(product);
+
+            if (request.MainImage != null)
+            {
+                //delete the old image
+                _fileService.Delete(oldImage);
+                product.MainImage = await _fileService.UploadAsync(request.MainImage);
             }
+
+            else
+            {
+                product.MainImage = oldImage;
+            }
+            if (request.Images != null)
+            {
+                foreach (var image in product.Images)
+                {
+                    _fileService.Delete(image.ImagePath);
+                  
+                }
+                product.Images.Clear();
+
+                foreach (var image in request.Images)
+                {
+                    var imagePath = await _fileService.UploadAsync(image);
+
+                    product.Images.Add(new ProductImage
+                    {
+                        ImagePath = imagePath
+                    });
+                }
+            }
+            return await _productRepository.UpdateAsync(product);
+
+            
+        }
         public async Task<bool>ToggleStatus(int id)
         {
             var product = await _productRepository.Getone(p => p.Id == id);

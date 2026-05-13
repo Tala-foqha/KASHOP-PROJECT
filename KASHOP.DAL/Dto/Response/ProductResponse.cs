@@ -16,5 +16,6 @@ namespace KASHOP.DAL.Dto.Response
         public int Quantity { get; set; }
 
         public string MainImage { get; set; }
+        public List<string> Images { get; set; }
     }
 }
