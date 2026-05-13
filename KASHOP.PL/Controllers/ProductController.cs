@@ -19,7 +19,7 @@ namespace KASHOP.PL.Controllers
 
         [HttpGet("")]
         //دائما اول وحد الي بترجع كلشي هي الاندكس
-        public async Task<IActionResult>Index(PaginationRequest request)
+        public async Task<IActionResult>Index([FromQuery ]PaginationRequest request)
         {
             var products = await _productService.GetAllProductsAsync(request);
             return Ok(new

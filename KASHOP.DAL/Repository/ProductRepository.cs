@@ -20,7 +20,7 @@ namespace KASHOP.DAL.Repository
         {
             //list contain id of all product
             var productIds = orderItems.Select(i => i.ProductId).ToList();
-            var products =  GetQureable(p=>productIds.Contains(p.Id));
+            var products =  GetQureable(p=>productIds.Contains(p.Id)).ToList();
             foreach (var product in products)
             {
                 var item = orderItems.FirstOrDefault(p => p.ProductId == product.Id);
@@ -28,7 +28,7 @@ namespace KASHOP.DAL.Repository
 
 
             }
-            await UpdateRangAsync(products);
+          await   UpdateRangAsync(products);
             return products.Where(p=>p.Quantity < 5).ToList();
         }
     }

@@ -319,9 +319,19 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "request",
-        "Type": "KASHOP.DAL.Dto.Request.PaginationRequest",
-        "IsRequired": true
+        "Name": "Page",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Search",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
