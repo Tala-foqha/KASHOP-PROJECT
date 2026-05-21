@@ -11,11 +11,17 @@ namespace KASHOP.DAL.Dto.Response
     public class OrderResponse
     {
         public int Id { get; set; }
+
         public string City { get; set; }
-        public string Street {  get; set; }
+
+        public string Street { get; set; }
+
         public OrderStatusEnum OrderStatus { get; set; }
-        public PaymentMethodEnum Payment {  get; set; }
-        public DateTime Orderdate { get; set; }
-        public List<OrderItemResponse> orderItems {  get; set; }
+
+        public PaymentMethodEnum Payment { get; set; }
+
+        public DateTime OrderDate { get; set; }
+
+        //public List<OrderItemResponse> OrderItems { get; set; } = new();
     }
 }

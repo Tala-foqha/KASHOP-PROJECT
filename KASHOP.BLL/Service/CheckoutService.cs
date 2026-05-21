@@ -141,6 +141,7 @@ namespace KASHOP.BLL.Service
             }
             Order order = new Order
             {
+                OrderStatus=OrderStatusEnum.Pending,
                 UserId = UserId,
                 OrderDate = DateTime.UtcNow,
                 PaymentMethod = request.PaymentMethod,

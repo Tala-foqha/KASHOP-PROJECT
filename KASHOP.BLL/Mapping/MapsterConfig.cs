@@ -60,6 +60,11 @@ namespace KASHOP.BLL.Mapping
     //.Map(dest => dest.Count, src => src.Count)
     .Map(dest => dest.ProductImage, source => $"https://localhost:7075/images/${source.Product.MainImage}");
             ;
+            TypeAdapterConfig<OrderItem, OrderItemResponse>.NewConfig()
+                .Map(dest => dest.productName, src => src.product.Translations.Where(t => t.Language == CultureInfo.CurrentCulture.Name).Select(t => t.Name).FirstOrDefault());
+
+            
         }
+        
     }
 }

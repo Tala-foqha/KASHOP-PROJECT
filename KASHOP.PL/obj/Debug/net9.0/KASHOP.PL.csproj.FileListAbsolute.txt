@@ -174,3 +174,4 @@ C:\Users\talaF\OneDrive\Documents\asp\backend\api\KASHOP\KASHOP.PL\obj\Debug\net
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\KASHOP\KASHOP.PL\obj\Debug\net9.0\ref\KASHOP.PL.dll
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\KASHOP\KASHOP.PL\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\talaF\OneDrive\Documents\asp\backend\api\KASHOP\KASHOP.PL\bin\Debug\net9.0\Stripe.net.dll
+C:\Users\talaF\OneDrive\Documents\asp\backend\api\KASHOP\KASHOP.PL\obj\Debug\net9.0\KASHOP.PL.MvcApplicationPartsAssemblyInfo.cs

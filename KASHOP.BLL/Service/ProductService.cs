@@ -32,18 +32,24 @@ namespace KASHOP.BLL.Service
             {
                 var imagePath = await _fileService.UploadAsync(request.MainImage);
                 product.MainImage = imagePath;
+
+                if (string.IsNullOrEmpty(imagePath))
+                    throw new Exception("Image upload failed");
             }
+
             if (request.Images != null)
             {
-                foreach(var image in request.Images)
+                foreach (var image in request.Images)
                 {
                     var imagePath = await _fileService.UploadAsync(image);
+
+                    if (string.IsNullOrEmpty(imagePath))
+                        continue; // أو throw حسب ما بدك
+
                     product.Images.Add(new ProductImage
                     {
-                        ImagePath=imagePath,
-
-                    } );
-
+                        ImagePath = imagePath
+                    });
                 }
             }
             await _productRepository.CreateAsync(product);

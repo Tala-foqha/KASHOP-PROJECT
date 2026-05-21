@@ -6,6 +6,7 @@ using KASHOP.DAL.Repository;
 using KASHOP.DAL.Utils;
 using KASHOP.PL.Extentions;
 using KASHOP.PL.images;
+using KASHOP.PL.MiddleWere;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Localization;
@@ -64,6 +65,11 @@ namespace KASHOP.PL
             // Localization
             app.UseRequestLocalization(
                 app.Services.GetRequiredService<IOptions<RequestLocalizationOptions>>().Value);
+            app.UseCustomMiddlewere();
+            //app.Run(async (context) =>
+            //{
+            //    Console.WriteLine("Run");
+            //});
 
             // Seed Data (محمي من الكراش)
             using (var scope = app.Services.CreateScope())

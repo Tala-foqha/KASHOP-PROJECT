@@ -13,8 +13,11 @@ namespace KASHOP.PL.Extentions
           Services.AddScoped<ICategoryRepository, CategoryRepository>();
             Services.AddScoped<ICategoryService, CategoryService>();
             Services.AddScoped<IOrderSevice, OrderService>();
+            Services.AddScoped<IOrderRepository, OrderRepository>();
 
             Services.AddScoped<IAuthenticationUsers, AuthenticationUsers>();
+            Services.AddScoped<IUserManagement, UserManegement>();
+
             Services.AddScoped<ICartRepository, CartRepository>();
             Services.AddScoped<ICartServices, CartServices>();
             Services.Configure<StripeSettings>(Configuration.GetSection("Stripe"));

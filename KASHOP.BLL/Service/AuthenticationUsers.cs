@@ -52,6 +52,7 @@ namespace KASHOP.BLL.Service
                 };
 
             }
+
             // عشان نتأكد الايميل كونفيرم ترو ولا لا
             if (!await _userManager.IsEmailConfirmedAsync(user))
             {
@@ -94,7 +95,7 @@ namespace KASHOP.BLL.Service
                     Message = "no refresh token"
                 };
             }
-            var user = await _userManager.Users.FirstOrDefaultAsync(u => u.RefreshToken == refreshToken);
+            var user = await _userManager.Users.AsNoTracking().FirstOrDefaultAsync(u => u.RefreshToken == refreshToken);
             if (user.RefreshTokenExpiry < DateTime.UtcNow)
             {
                 return new LoginResponse

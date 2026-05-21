@@ -3,6 +3,93 @@
   "WorkspaceRootPath": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.pl\\middlewere\\globalexceptionhandiling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\middlewere\\globalexceptionhandiling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.pl\\middlewere\\custommiddlewere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\middlewere\\custommiddlewere.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\dto\\response\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\dto\\response\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.pl\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.pl\\extentions\\applicationservicesextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\extentions\\applicationservicesextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\service\\authenticationusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\service\\authenticationusers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.pl\\controllers\\usermanagmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\controllers\\usermanagmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\service\\usermanegement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\service\\usermanegement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\mapping\\mapsterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\mapping\\mapsterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\service\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\service\\checkoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\models\\producttranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\models\\producttranslation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\talaF\\AppData\\Local\\SourceServer\\681002c7c1b7cd62487902467ae9f8bc40176c1f452a06a314188ebdb49e4a0c\\KASHOP.DAL\\Models\\ApplicationUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\dto\\response\\userdetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\dto\\response\\userdetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\dto\\response\\userlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\dto\\response\\userlistresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.pl\\extentions\\authenticationextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\extentions\\authenticationextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\dto\\request\\changerolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\dto\\request\\changerolerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\service\\iusermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\service\\iusermanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\service\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\service\\stripesettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.pl\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,28 +98,74 @@
       "RelativeMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.pl\\extentions\\applicationservicesextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\extentions\\applicationservicesextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\service\\iordersevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\service\\iordersevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\service\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.pl\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.pl\\controllers\\checkoutcotroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C7EC6D2-BB85-463E-AC73-39E789A12658}|KASHOP.PL\\KASHOP.PL.csproj|solutionrelative:kashop.pl\\controllers\\checkoutcotroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\dto\\request\\changeorderstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\dto\\request\\changeorderstatusrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\service\\iordersevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\service\\iordersevice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\dto\\request\\updatecartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\dto\\request\\updatecartrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\service\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\service\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\service\\icheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\service\\icheckoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\dto\\response\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\dto\\response\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\dto\\response\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\dto\\response\\orderitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\dto\\response\\orderdetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\dto\\response\\orderdetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\service\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\service\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.bll\\extentions\\paginationextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F260A38-D056-4E50-A43C-10B49CC373B6}|KASHOP.BLL\\KASHOP.BLL.csproj|solutionrelative:kashop.bll\\extentions\\paginationextentions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./KASHOP50/True/SqlTable/dbo.ProductImages.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/./KASHOP50/True/SqlTable/dbo.Product.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\dto\\request\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|solutionrelative:kashop.dal\\dto\\request\\productrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D00467F-771C-4B92-B2A6-87FC41DCD32C}|KASHOP.DAL\\KASHOP.DAL.csproj|c:\\users\\talaf\\onedrive\\documents\\asp\\backend\\api\\kashop\\kashop.dal\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +179,425 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ErrorDetails.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Response\\ErrorDetails.cs",
+              "RelativeDocumentMoniker": "KASHOP.DAL\\Dto\\Response\\ErrorDetails.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Response\\ErrorDetails.cs",
+              "RelativeToolTip": "KASHOP.DAL\\Dto\\Response\\ErrorDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T14:13:21.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GlobalExceptionHandiling.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\MiddleWere\\GlobalExceptionHandiling.cs",
+              "RelativeDocumentMoniker": "KASHOP.PL\\MiddleWere\\GlobalExceptionHandiling.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\MiddleWere\\GlobalExceptionHandiling.cs",
+              "RelativeToolTip": "KASHOP.PL\\MiddleWere\\GlobalExceptionHandiling.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA6wB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T13:59:30.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "KASHOP.PL\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\WeatherForecast.cs",
+              "RelativeToolTip": "KASHOP.PL\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T13:51:57.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomMiddlewere.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\MiddleWere\\CustomMiddlewere.cs",
+              "RelativeDocumentMoniker": "KASHOP.PL\\MiddleWere\\CustomMiddlewere.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\MiddleWere\\CustomMiddlewere.cs",
+              "RelativeToolTip": "KASHOP.PL\\MiddleWere\\CustomMiddlewere.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T13:25:47.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthenticationUsers.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\AuthenticationUsers.cs",
+              "RelativeDocumentMoniker": "KASHOP.BLL\\Service\\AuthenticationUsers.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\AuthenticationUsers.cs",
+              "RelativeToolTip": "KASHOP.BLL\\Service\\AuthenticationUsers.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAuwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T12:56:36.957Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Program.cs",
+              "RelativeDocumentMoniker": "KASHOP.PL\\Program.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Program.cs",
+              "RelativeToolTip": "KASHOP.PL\\Program.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAmwEcAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T12:49:53.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "KASHOP.DAL\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "KASHOP.DAL\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA8AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T14:40:06.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductTranslation.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Models\\ProductTranslation.cs",
+              "RelativeDocumentMoniker": "KASHOP.DAL\\Models\\ProductTranslation.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Models\\ProductTranslation.cs",
+              "RelativeToolTip": "KASHOP.DAL\\Models\\ProductTranslation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T14:38:57.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\AppData\\Local\\SourceServer\\681002c7c1b7cd62487902467ae9f8bc40176c1f452a06a314188ebdb49e4a0c\\KASHOP.DAL\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\681002c7c1b7cd62487902467ae9f8bc40176c1f452a06a314188ebdb49e4a0c\\KASHOP.DAL\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\talaF\\AppData\\Local\\SourceServer\\681002c7c1b7cd62487902467ae9f8bc40176c1f452a06a314188ebdb49e4a0c\\KASHOP.DAL\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Local\\SourceServer\\681002c7c1b7cd62487902467ae9f8bc40176c1f452a06a314188ebdb49e4a0c\\KASHOP.DAL\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T14:38:36.051Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "KASHOP.DAL\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "KASHOP.DAL\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T14:37:48.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ChangeRoleRequest.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Request\\ChangeRoleRequest.cs",
+              "RelativeDocumentMoniker": "KASHOP.DAL\\Dto\\Request\\ChangeRoleRequest.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Request\\ChangeRoleRequest.cs",
+              "RelativeToolTip": "KASHOP.DAL\\Dto\\Request\\ChangeRoleRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T14:24:40.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "KASHOP.PL\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "KASHOP.PL\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T13:34:14.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserManagmentController.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Controllers\\UserManagmentController.cs",
+              "RelativeDocumentMoniker": "KASHOP.PL\\Controllers\\UserManagmentController.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Controllers\\UserManagmentController.cs",
+              "RelativeToolTip": "KASHOP.PL\\Controllers\\UserManagmentController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwCwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T13:34:03.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserDetailsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Response\\UserDetailsResponse.cs",
+              "RelativeDocumentMoniker": "KASHOP.DAL\\Dto\\Response\\UserDetailsResponse.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Response\\UserDetailsResponse.cs",
+              "RelativeToolTip": "KASHOP.DAL\\Dto\\Response\\UserDetailsResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:58:26.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserListResponse.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Response\\UserListResponse.cs",
+              "RelativeDocumentMoniker": "KASHOP.DAL\\Dto\\Response\\UserListResponse.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Response\\UserListResponse.cs",
+              "RelativeToolTip": "KASHOP.DAL\\Dto\\Response\\UserListResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:55:08.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserManegement.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\UserManegement.cs",
+              "RelativeDocumentMoniker": "KASHOP.BLL\\Service\\UserManegement.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\UserManegement.cs",
+              "RelativeToolTip": "KASHOP.BLL\\Service\\UserManegement.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:43:13.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IUserManagement.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\IUserManagement.cs",
+              "RelativeDocumentMoniker": "KASHOP.BLL\\Service\\IUserManagement.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\IUserManagement.cs",
+              "RelativeToolTip": "KASHOP.BLL\\Service\\IUserManagement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:43:13.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "KASHOP.DAL\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Models\\Order.cs",
+              "RelativeToolTip": "KASHOP.DAL\\Models\\Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T12:06:57.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "UpdateCartRequest.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Request\\UpdateCartRequest.cs",
+              "RelativeDocumentMoniker": "KASHOP.DAL\\Dto\\Request\\UpdateCartRequest.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Request\\UpdateCartRequest.cs",
+              "RelativeToolTip": "KASHOP.DAL\\Dto\\Request\\UpdateCartRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T11:17:11.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ChangeOrderStatusRequest.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Request\\ChangeOrderStatusRequest.cs",
+              "RelativeDocumentMoniker": "KASHOP.DAL\\Dto\\Request\\ChangeOrderStatusRequest.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Request\\ChangeOrderStatusRequest.cs",
+              "RelativeToolTip": "KASHOP.DAL\\Dto\\Request\\ChangeOrderStatusRequest.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T11:11:18.156Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StripeSettings.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\StripeSettings.cs",
+              "RelativeDocumentMoniker": "KASHOP.BLL\\Service\\StripeSettings.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\StripeSettings.cs",
+              "RelativeToolTip": "KASHOP.BLL\\Service\\StripeSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T11:08:11.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CheckoutService.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\CheckoutService.cs",
+              "RelativeDocumentMoniker": "KASHOP.BLL\\Service\\CheckoutService.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\CheckoutService.cs",
+              "RelativeToolTip": "KASHOP.BLL\\Service\\CheckoutService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAApwBgAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T11:06:06.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IcategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\IcategoryService.cs",
+              "RelativeDocumentMoniker": "KASHOP.BLL\\Service\\IcategoryService.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\IcategoryService.cs",
+              "RelativeToolTip": "KASHOP.BLL\\Service\\IcategoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T11:06:02.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ICheckoutService.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\ICheckoutService.cs",
+              "RelativeDocumentMoniker": "KASHOP.BLL\\Service\\ICheckoutService.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\ICheckoutService.cs",
+              "RelativeToolTip": "KASHOP.BLL\\Service\\ICheckoutService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T11:06:00.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CheckoutCotroller.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Controllers\\CheckoutCotroller.cs",
+              "RelativeDocumentMoniker": "KASHOP.PL\\Controllers\\CheckoutCotroller.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Controllers\\CheckoutCotroller.cs",
+              "RelativeToolTip": "KASHOP.PL\\Controllers\\CheckoutCotroller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T10:45:07.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "OrderDetailsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Response\\OrderDetailsResponse.cs",
+              "RelativeDocumentMoniker": "KASHOP.DAL\\Dto\\Response\\OrderDetailsResponse.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Response\\OrderDetailsResponse.cs",
+              "RelativeToolTip": "KASHOP.DAL\\Dto\\Response\\OrderDetailsResponse.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T09:47:43.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "PaginationExtentions.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Extentions\\PaginationExtentions.cs",
+              "RelativeDocumentMoniker": "KASHOP.BLL\\Extentions\\PaginationExtentions.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Extentions\\PaginationExtentions.cs",
+              "RelativeToolTip": "KASHOP.BLL\\Extentions\\PaginationExtentions.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T09:13:40.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MapsterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Mapping\\MapsterConfig.cs",
+              "RelativeDocumentMoniker": "KASHOP.BLL\\Mapping\\MapsterConfig.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Mapping\\MapsterConfig.cs",
+              "RelativeToolTip": "KASHOP.BLL\\Mapping\\MapsterConfig.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAlwEEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T08:37:13.465Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OrderItemResponse.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Response\\OrderItemResponse.cs",
+              "RelativeDocumentMoniker": "KASHOP.DAL\\Dto\\Response\\OrderItemResponse.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Response\\OrderItemResponse.cs",
+              "RelativeToolTip": "KASHOP.DAL\\Dto\\Response\\OrderItemResponse.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA+wAYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T08:36:48.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "OrderResponse.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Response\\OrderResponse.cs",
+              "RelativeDocumentMoniker": "KASHOP.DAL\\Dto\\Response\\OrderResponse.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Response\\OrderResponse.cs",
+              "RelativeToolTip": "KASHOP.DAL\\Dto\\Response\\OrderResponse.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T08:36:44.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "dbo.ProductImages.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./KASHOP50/True/SqlTable/dbo.ProductImages.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/./KASHOP50/True/SqlTable/dbo.ProductImages.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-13T08:02:22.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "dbo.Product.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/./KASHOP50/True/SqlTable/dbo.Product.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/./KASHOP50/True/SqlTable/dbo.Product.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-13T08:00:44.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProductRequest.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Request\\ProductRequest.cs",
+              "RelativeDocumentMoniker": "KASHOP.DAL\\Dto\\Request\\ProductRequest.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Dto\\Request\\ProductRequest.cs",
+              "RelativeToolTip": "KASHOP.DAL\\Dto\\Request\\ProductRequest.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:50:28.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthenticationExtentions.cs",
+              "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Extentions\\AuthenticationExtentions.cs",
+              "RelativeDocumentMoniker": "KASHOP.PL\\Extentions\\AuthenticationExtentions.cs",
+              "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Extentions\\AuthenticationExtentions.cs",
+              "RelativeToolTip": "KASHOP.PL\\Extentions\\AuthenticationExtentions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T07:34:57.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "CartController.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "KASHOP.PL\\Controllers\\CartController.cs",
@@ -58,50 +605,49 @@
               "RelativeToolTip": "KASHOP.PL\\Controllers\\CartController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T07:26:05.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T07:26:05.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 22,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "KASHOP.PL\\Controllers\\OrdersController.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "KASHOP.PL\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwDEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T07:18:46.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T07:18:46.388Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "ApplicationServicesExtentions.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Extentions\\ApplicationServicesExtentions.cs",
               "RelativeDocumentMoniker": "KASHOP.PL\\Extentions\\ApplicationServicesExtentions.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Extentions\\ApplicationServicesExtentions.cs",
               "RelativeToolTip": "KASHOP.PL\\Extentions\\ApplicationServicesExtentions.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T07:12:04.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "ProductService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\ProductService.cs",
               "RelativeDocumentMoniker": "KASHOP.BLL\\Service\\ProductService.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\ProductService.cs",
               "RelativeToolTip": "KASHOP.BLL\\Service\\ProductService.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAYwDQAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAtwEAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T06:55:42.456Z"
+              "WhenOpened": "2026-05-13T06:55:42.456Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 25,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.PL\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "KASHOP.PL\\Controllers\\ProductController.cs",
@@ -113,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 37,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\IProductService.cs",
               "RelativeDocumentMoniker": "KASHOP.BLL\\Service\\IProductService.cs",
@@ -125,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 42,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.DAL\\Repository\\ProductRepository.cs",
               "RelativeDocumentMoniker": "KASHOP.DAL\\Repository\\ProductRepository.cs",
@@ -137,32 +683,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 28,
               "Title": "OrderService.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\OrderService.cs",
               "RelativeDocumentMoniker": "KASHOP.BLL\\Service\\OrderService.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\OrderService.cs",
               "RelativeToolTip": "KASHOP.BLL\\Service\\OrderService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAuwCMAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswFMAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-13T06:25:34.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-13T06:25:34.318Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 30,
               "Title": "IOrderSevice.cs",
               "DocumentMoniker": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\IOrderSevice.cs",
               "RelativeDocumentMoniker": "KASHOP.BLL\\Service\\IOrderSevice.cs",
               "ToolTip": "C:\\Users\\talaF\\OneDrive\\Documents\\asp\\backend\\api\\KASHOP\\KASHOP.BLL\\Service\\IOrderSevice.cs",
               "RelativeToolTip": "KASHOP.BLL\\Service\\IOrderSevice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBEAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-13T06:25:33.786Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             }
           ]
         }

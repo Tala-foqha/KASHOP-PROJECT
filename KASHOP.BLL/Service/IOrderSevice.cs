@@ -1,4 +1,6 @@
-﻿using KASHOP.DAL.Dto.Response;
+﻿using KASHOP.DAL.Dto.Request;
+using KASHOP.DAL.Dto.Response;
+using KASHOP.DAL.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +11,10 @@ namespace KASHOP.BLL.Service
 {
     public interface IOrderSevice
     {
-        Task<List<OrderResponse>> GetUserOrder(string userId);//for user
+        Task<List<OrderResponse>> GetUserOrders(string userId);//for user
+        Task<OrderDetailsResponse?> GetUserOrder(string userId, int orderId);
+        Task<bool>CancelOrder(string userId,int orderId);
+         Task<List<OrderResponse>> GetAllOrders(OrderStatusEnum status);
+        Task<bool> ChangeOrderStatus(int orderId, ChangeOrderStatusRequest request);
     }
 }
